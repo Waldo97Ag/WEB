@@ -1,0 +1,62 @@
+
+        div{
+            border-color:#0086e8;
+            border-width:1px;
+            border-style: solid;
+            width:1000px;
+        }
+        .principal {
+        border-color:#009613;
+        position: relative;
+        margin-left:auto;
+        margin-right: auto;
+        align-content: center;
+
+        }
+        .Materias{
+            padding-left:10px;
+            margin:auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items:start; 
+            border: transparent;
+            text-align:center;
+        }
+        .MateriaAprobada{
+            /*display:table-cell;*/
+            height:62px;         
+            width:94px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #13F315;
+            align-self: auto;
+            vertical-align: middle;
+        }
+        .MateriaNoCursada{
+            height:62px;         
+            width:94px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #13F3E4;
+            align-self: auto;
+            vertical-align: middle;	
+        }
+        .MateriaReprobada{
+            height:62px;         
+            width:94px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #E90000;
+            align-self: auto;
+            vertical-align: middle;	
+        }
+        .MateriaCursando{
+            height:62px;         
+            width:94px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #1337F3;
+            align-self: auto;
+            vertical-align: middle;	
+        }
